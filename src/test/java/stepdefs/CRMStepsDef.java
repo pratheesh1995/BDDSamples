@@ -18,6 +18,7 @@ public class CRMStepsDef
 	public void connectDB()
 	{
 		System.out.println("Connect with DB");
+		//System.out.println("Updated Phase2");
 	}
 	@Before(value="@SmokeTest", order=1)
 	public void readFromPFSmoke()
@@ -28,7 +29,7 @@ public class CRMStepsDef
 	public void connectDBSmoke()
 	{
 		System.out.println("Connect with SmokeTest DB");
-		System.out.println("Updated")
+		//System.out.println("Updated");
 	}
 //	@Before(order=2)
 //	public void initBrowserSmoke()
