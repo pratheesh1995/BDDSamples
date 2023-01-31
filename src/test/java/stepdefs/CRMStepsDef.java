@@ -18,6 +18,7 @@ public class CRMStepsDef
 	public void connectDB()
 	{
 		System.out.println("Connect with DB");
+		//System.out.println("Updated DB2");
 	}
 	@Before(value="@SmokeTest", order=1)
 	public void readFromPFSmoke()
