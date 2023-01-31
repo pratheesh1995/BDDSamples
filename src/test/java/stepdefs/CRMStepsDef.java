@@ -28,6 +28,7 @@ public class CRMStepsDef
 	public void connectDBSmoke()
 	{
 		System.out.println("Connect with SmokeTest DB");
+		System.out.println("Updated")
 	}
 //	@Before(order=2)
 //	public void initBrowserSmoke()
